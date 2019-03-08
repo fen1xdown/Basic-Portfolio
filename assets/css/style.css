@@ -4,10 +4,21 @@ header{
 
 body {
     background-image: url("../images/dark-honeycomb.png");
+    float: middle;
+    height: 960px;
+    width: 80%;
+    padding-left: 10%;
 }
 
 li, p, ul, form {
     color: white;
+}
+
+h1 {
+    float: left;
+    color: white;
+    background-color: red;
+    padding: 10px 10px 10px 10px
 }
 
 nav {
@@ -19,7 +30,7 @@ nav {
   }
   
   a {
-      float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
@@ -27,6 +38,6 @@ nav {
     text-decoration: none;
   }
   
-  li a:hover {
+  a:hover {
     background-color: rgb(255, 0, 0);
   }
