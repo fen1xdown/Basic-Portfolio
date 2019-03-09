@@ -6,11 +6,11 @@ header{
 body {
     background-image: url("../images/dark-honeycomb.png");
     height: 960px;
-    width: 80%;
     padding-left: 10%;
+    padding-right: 10%;
 }
 
-li, p, ul, form, h2 {
+li, p, ul, form, h2, h4 {
     color: white;
 }
 
