@@ -1,16 +1,16 @@
 header{
     color: white;
+    background-color: #333;
 }
 
 body {
     background-image: url("../images/dark-honeycomb.png");
-    float: middle;
     height: 960px;
     width: 80%;
     padding-left: 10%;
 }
 
-li, p, ul, form {
+li, p, ul, form, h2 {
     color: white;
 }
 
@@ -40,4 +40,14 @@ nav {
   
   a:hover {
     background-color: rgb(255, 0, 0);
+  }
+
+  footer {
+    text-align: center;
+    background-color: #333;
+  }
+
+  h3 {
+    color: white;
+    text-align: center;
   }
